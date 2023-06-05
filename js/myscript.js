@@ -6,5 +6,10 @@ createApp({
 
         }
     },
+    methods: {
+        testingFunction(){
+            this.message = 'How to edit data fields from a function';
+        }
+    },
 
 }).mount('#app');
